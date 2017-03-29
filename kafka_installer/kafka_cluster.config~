@@ -1,0 +1,14 @@
+# Enter the number of hosts in the cluster
+cluster_size=3
+
+# Enter the hosts as space separated string contained in parenthesis 
+# Pay attention to the spaces before and after parenthesis
+# Example:host_names=( instance-1 instance2 instance-3 )
+host_names=( instance-2 instance-4 instance-5 )
+
+# Enter the ip's of hosts in order of their host_names
+# Example:ips=( 146.148.95.241 104.197.28.78 234.130.238.238 )
+ips=( 104.154.162.65 104.198.192.214 104.154.169.34 )
+
+# Enter kafka download path
+kafka_download_url=http://mirror.reverse.net/pub/apache/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz
